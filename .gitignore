@@ -1,6 +1,10 @@
 
 # Created by https://www.gitignore.io/api/java
 
+##common###
+.*
+!/.gitignore
+
 ### Java ###
 *.class
 
@@ -28,3 +32,18 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+.nb-gradle
+.nb-gradle-properties
+
+# Gradle
+# ------
+.gradle
+/build
+/buildSrc/build
+/subprojects/*/build
+/subprojects/docs/src/samples/*/*/build
+/subprojects/internal-android-performance-testing/build-android-libs
+
+# Logs
+# ----
+/*.log

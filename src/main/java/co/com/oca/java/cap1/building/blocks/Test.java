@@ -1,4 +1,4 @@
-package co.com.oca.java.building.cap1.blocks;
+package co.com.oca.java.cap1.building.blocks;
 
 public class Test {
     /**
