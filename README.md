@@ -21,7 +21,7 @@ A step by step series of examples that tell you have to get a development env ru
 Say what the step will be
 
 ```
-Give the example
+use "gradle clean build" comand 
 ```
 
 And repeat
@@ -59,9 +59,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Netbeans](hhttps://netbeans.org/) - The IDE used
+* [Gradle](https://gradle.org/) - Dependency Management
+
 
 ## Contributing
 
@@ -70,8 +70,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Authors
 
 * **Jonattan Fernandez** - *Initial work* - [tatosweb](https://github.com/tatosweb)
-* **Claudia Alvarez   ** - *Initial work* - 
-* **Diana  Alvarez*   ** - *Initial work* - 
+* **Claudia Alvarez**    - *Initial work* - 
+* **Diana  Alvarez**     - *Initial work* - 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
