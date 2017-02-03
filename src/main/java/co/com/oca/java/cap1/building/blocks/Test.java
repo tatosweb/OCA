@@ -1,12 +1,30 @@
 package co.com.oca.java.cap1.building.blocks;
 
+import java.util.Date;
+
+
 public class Test {
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        System.out.println("hola mundo");
+
+    public static void main(String args[]) {
+
+        Date d1 = new Date(99, 11, 31);
+
+        Date d2 = new Date(99, 11, 31);
+
+        method(d1, d2);
+
+        System.out.println("d1 is " + d1
+                + "\nd2 is " + d2);
+
+    }
+
+    public static void method(Date d1, Date d2) {
+
+        d2.setYear(100);
+
+        //this line do not change anything
+        d1 = d2;
         
     }
+
 }

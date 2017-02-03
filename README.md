@@ -59,7 +59,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Netbeans](hhttps://netbeans.org/) - The IDE used
+* [Netbeans](https://netbeans.org/) - The IDE used
 * [Gradle](https://gradle.org/) - Dependency Management
 
 
