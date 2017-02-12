@@ -10,11 +10,16 @@ name of the classes, but with a .class filename extension.
 */
 }
 
-class Test3{
+public class Test3{
 //error: The Test3 class is public, should be declared in a file named Test3.java
 //you can delete de public access modifier to solve the problem
 }
 class Test4{
+// This is the only class with main method, to execute this class 
+/* 1. remove the public access modifier from Test3 class.
+ * 2. compile the Test2.java file
+ * 3. execute -> java Test4 
+ */
 	public static void main (String... args){
 		System.out.println("I'm the only class with a main method!!! ");
 	}
