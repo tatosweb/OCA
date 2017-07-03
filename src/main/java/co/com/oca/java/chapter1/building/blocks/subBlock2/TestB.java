@@ -1,5 +1,5 @@
-package co.com.oca.java.cap1.building.blocks.subBlock2;
-import co.com.oca.java.cap1.building.blocks.subBlock1.TestA;
+package co.com.oca.java.chapter1.building.blocks.subBlock2;
+import co.com.oca.java.chapter1.building.blocks.subBlock1.TestA;
 public class TestB{
 	public static void main (String... args){
 		TestA testA = new TestA();

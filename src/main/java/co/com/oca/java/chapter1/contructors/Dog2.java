@@ -1,4 +1,4 @@
-package co.com.oca.java.cap1.contructors;
+package co.com.oca.java.chapter1.contructors;
 
 /**
  * Constructor Chaining  usage of this keyword over constructors

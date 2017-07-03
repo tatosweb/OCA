@@ -1,4 +1,4 @@
-package co.com.oca.java.cap1.building.blocks.subBlock1;
+package co.com.oca.java.chapter1.building.blocks.subBlock1;
 public class TestA{
 	
 	public void printJustMe4Now(){

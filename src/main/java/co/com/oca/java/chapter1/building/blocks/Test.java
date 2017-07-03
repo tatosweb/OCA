@@ -1,4 +1,4 @@
-package co.com.oca.java.cap1.building.blocks;
+package co.com.oca.java.chapter1.building.blocks;
 
 import java.util.Date;
 

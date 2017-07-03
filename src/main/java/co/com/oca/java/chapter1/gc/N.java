@@ -1,4 +1,4 @@
-package co.com.oca.java.cap1.gc;
+package co.com.oca.java.chapter1.gc;
 
 /**
  * There are no instances of M to be garbage collected till the program ends.
