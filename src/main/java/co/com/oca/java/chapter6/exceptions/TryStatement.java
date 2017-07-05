@@ -8,13 +8,13 @@ public class TryStatement{
           int num = numArray[-1];
       }finally{
           int num = 0;
-          System.out.println("Even a runtime exception appears in line 8, the finally block is executed ");
+          System.out.println("Even a runtime exception appears in line 6, the finally block is ");
       }
 
     }
     public static void tryCatchFinallyStructureForCheckedException(){
       FileInputStream fis = null;
-      /*The constructor called FileInputStream(File filename)
+      /*This constructor FileInputStream(File filename)
 	     * throws FileNotFoundException which is a checked
 	     * exception*/
        //

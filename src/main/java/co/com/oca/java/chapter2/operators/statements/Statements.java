@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.com.oca.java.cap2.operators.statements;
+package co.com.oca.java.chapter2.operators.statements;
 
 /**
  *
