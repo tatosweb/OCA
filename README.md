@@ -39,7 +39,7 @@ Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+Explain what these tests co.com.oca.java.test and why
 
 ```
 Give an example
@@ -47,7 +47,7 @@ Give an example
 
 ### And coding style tests
 
-Explain what these tests test and why
+Explain what these tests co.com.oca.java.test and why
 
 ```
 Give an example

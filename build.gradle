@@ -1,7 +1,11 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'application'
 
 sourceCompatibility = '1.8'
+mainClassName=  'co.com.oca.java.test.Test'
+
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 // NetBeans will automatically add "run" and "debug" tasks relying on the
@@ -12,8 +16,9 @@ sourceCompatibility = '1.8'
 // prefer. In this case NetBeans will not add these tasks but you may rely on
 // your own implementation.
 if (!hasProperty('mainClass')) {
-    ext.mainClass = 'co.com.oca.test'
+    ext.mainClass = 'co.com.oca.co.com.oca.java.test.Test'
 }
+
 
 repositories {
     mavenCentral()
