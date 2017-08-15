@@ -47,6 +47,8 @@ public class StringTest {
         System.out.println("Ends with: "+temp1+" "+temp1.endsWith("na"));
         System.out.println("Replace * - > "+("*espa*cio*".replace("*","r")).trim());
         System.out.println("Replace * - > "+("*espa*cio*".replace('*','\r')).trim());
+        System.out.println("Substring of "+temp3+" - > "+temp3.substring(6));
+        System.out.println("Substring of "+temp3+" - > "+temp3.substring(0,6));
         String result = "AniMaL  ".trim().toLowerCase().replace('a', 'A');
         System.out.println(result);
     }

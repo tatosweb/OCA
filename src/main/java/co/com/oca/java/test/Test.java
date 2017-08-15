@@ -34,7 +34,7 @@ public class Test {
         sbt.mainAppend();
         System.out.println("sbt:"+sbt.getSb());
         System.out.println("***********chartAtStringBuilder***************");
-        StringBuilderTest.stringBuilderMethodsTest(sbt.getSb(), 10, "a", 3);
+        StringBuilderTest.stringBuilderMethodsTest(sbt.getSb(), 10, "a", 25);
 
     }
 
