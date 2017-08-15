@@ -5,7 +5,7 @@ package co.com.oca.java.chapter3;
  */
 public class StringTest {
 
-    public void doConcatenationTest(){
+    public static void doConcatenationTest(){
         String stringVar= "S";
         int intVar = 1;
         System.out.println(stringVar+intVar+2);
@@ -18,7 +18,7 @@ public class StringTest {
         System.out.println(_stringVar);
     }
 
-    public void doStringPoolTest(){
+    public static void doStringPoolTest(){
         String temp1 = "mona";
         String temp2 = "mona";
         String temp3 = new String ("mona");
@@ -28,7 +28,7 @@ public class StringTest {
         System.out.println("StringPool==Object: "+temp2.equals(temp3));
     }
 
-    public void doImportStringTest(){
+    public static void doImportStringTest(){
         String temp1 = "m0na";
         String temp2 = "mamona";
         String temp3 = new String ("monitanita");
