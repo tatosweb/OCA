@@ -19,9 +19,14 @@ public class Test {
     }
 
 
-    public void stringConcatenationTest() {
+    public void stringTest() {
         StringTest sct = new StringTest();
+        System.out.println("***********doConcatenationTest***************");
         sct.doConcatenationTest();
+        System.out.println("***********doStringPoolTest***************");
+        sct.doStringPoolTest();
+        System.out.println("***********doImportStringTest***************");
+        sct.doImportStringTest();
     }
 
 
@@ -31,6 +36,7 @@ public class Test {
     public static void main(String... arg){
         Test t = new Test();
         t.wrapperTest();
-        t.stringConcatenationTest();
+        t.stringTest();
+
     }
 }
