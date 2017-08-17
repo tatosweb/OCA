@@ -3,7 +3,7 @@ package co.com.oca.java.test;
 import co.com.oca.java.chapter2.operators.statements.WrapperTest;
 import co.com.oca.java.chapter3.StringTest;
 import co.com.oca.java.chapter3.StringBuilderTest;
-
+import co.com.oca.java.chapter3.ArrayTest;
 /**
  * Created by developer on 5/08/17.
  */
@@ -38,11 +38,20 @@ public class Test {
 
     }
 
+    public void arraysTest(){
+        ArrayTest.doSortIntTypeTest();
+        ArrayTest.doSortShortTypeTest();
+        ArrayTest.doSortCharTypeTest();
+        ArrayTest.doSortByteTypeTest();
+        ArrayTest.doBinarySearchWithArrayUnSort();
+    }
+
 
     public static void main(String... arg){
         Test t = new Test();
         t.wrapperTest();
         t.stringTest();
         t.stringBuilderTest();
+        t.arraysTest();
     }
 }
