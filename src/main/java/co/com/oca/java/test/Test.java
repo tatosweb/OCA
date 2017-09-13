@@ -4,6 +4,8 @@ import co.com.oca.java.chapter2.operators.statements.WrapperTest;
 import co.com.oca.java.chapter3.StringTest;
 import co.com.oca.java.chapter3.StringBuilderTest;
 import co.com.oca.java.chapter3.ArrayTest;
+import co.com.oca.java.chapter3.TimeTest;
+import co.com.oca.java.chapter3.Trip;
 /**
  * Created by developer on 5/08/17.
  */
@@ -44,8 +46,13 @@ public class Test {
         ArrayTest.doSortCharTypeTest();
         ArrayTest.doSortByteTypeTest();
         ArrayTest.doBinarySearchWithArrayUnSort();
+        ArrayTest.doSortCharTypeMultidimensionalArrayTest();
     }
 
+
+    public void timeTest(){
+        TimeTest.doLocalDateTest();
+    }
 
     public static void main(String... arg){
         Test t = new Test();
@@ -53,5 +60,10 @@ public class Test {
         t.stringTest();
         t.stringBuilderTest();
         t.arraysTest();
+        t.timeTest();
+        Trip trip= Trip.ONEWAY;
+        System.out.println(trip);
+
+
     }
 }

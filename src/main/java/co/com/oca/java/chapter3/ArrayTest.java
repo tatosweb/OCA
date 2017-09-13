@@ -71,6 +71,9 @@ public class ArrayTest {
         System.out.println(Arrays.toString(temp));
     }
 
-
+    public static void doSortCharTypeMultidimensionalArrayTest(){
+        char[][] temp={{1,2,3},{3,4}};
+       // Arrays.sort(temp);
+    }
 
 }
