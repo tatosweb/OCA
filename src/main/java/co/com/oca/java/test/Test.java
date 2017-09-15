@@ -51,7 +51,10 @@ public class Test {
 
 
     public void timeTest(){
-        TimeTest.doLocalDateTest();
+        TimeTest.doTimeTest();
+        TimeTest.doLocalDateTest(2017,01,02);
+        TimeTest.doLocalTimeTest(3,30, 33,33333);
+        TimeTest.doLocalTimeAllTest(2017,01,02,3,30,33,33333);
     }
 
     public static void main(String... arg){
