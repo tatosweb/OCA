@@ -11,10 +11,25 @@ public class StringBuilderTest {
        sb= new StringBuilder(10);
 
    }
-   public void mainAppend(){
-       sb.append("cambié cambié cambié");
-       append(sb);
+
+    public void mainAppend(){
+        sb.append("cambié cambié cambié");
+        append(sb);
+    }
+
+   public static void StringBuilderVsStringTest(){
+        StringBuilder tempSB= new StringBuilder("hola") ;
+        String tempString="hola";
+        /*No se puede hacer esta evaluacion, dado que son dos tipos diferentes, son incomparables
+        if(tempSB==tempString)
+            System.out.println("Igual");
+        */
+
+
    }
+
+
+
 
    public void append(StringBuilder sb){
         sb=null;

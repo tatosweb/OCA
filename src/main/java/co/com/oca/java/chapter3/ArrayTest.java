@@ -1,5 +1,7 @@
 package co.com.oca.java.chapter3;
 import java.util.Arrays;
+import static java.util.Arrays.toString;
+import static java.util.Arrays.asList;
 /**
  * Created by developer on 5/08/17.
  */
@@ -73,7 +75,8 @@ public class ArrayTest {
 
     public static void doSortCharTypeMultidimensionalArrayTest(){
         char[][] temp={{1,2,3},{3,4}};
-       // Arrays.sort(temp);
+        asList(temp);
+
     }
 
 }
