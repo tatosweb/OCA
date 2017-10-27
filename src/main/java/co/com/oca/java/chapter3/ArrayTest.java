@@ -61,6 +61,19 @@ public class ArrayTest {
         System.out.println("Looking for 1 -->"+Arrays.binarySearch(temp, (byte)1));
     }
 
+    public static void doDeclarationAndInizializationMultidimentionalArrayTest(){
+        System.out.println("***********doDeclarationAndInizializationMultidimentionalArrayTest begin***************");
+        int temp[][]={{1,2,3},{4,5},{6}};
+
+        for(int number[]: temp ){
+          for(int x=0; x<number.length; x++){
+            System.out.print(number[x]+" ");
+          }
+          System.out.println();
+        }
+
+    }
+
     public static void doSortCharTypeTest(){
         char temp []=new char[5];
         for(int i=0; i<5; i++){

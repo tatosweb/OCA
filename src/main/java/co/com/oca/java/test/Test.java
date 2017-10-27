@@ -1,19 +1,32 @@
 package co.com.oca.java.test;
 
-import co.com.oca.java.chapter2.operators.statements.WrapperTest;
+import java.io.IOException;
+import co.com.oca.java.chapter2.operators.statements.*;
 import co.com.oca.java.chapter3.StringTest;
 import co.com.oca.java.chapter3.StringBuilderTest;
 import co.com.oca.java.chapter3.ArrayTest;
 import co.com.oca.java.chapter3.TimeTest;
 import co.com.oca.java.chapter3.Trip;
 import co.com.oca.java.chapter4.classes.design.*;
+import co.com.oca.java.chapter6.exceptions.*;
 import static co.com.oca.java.chapter4.classes.design.Species.breath;
 import co.com.oca.java.chapter2.operators.UnaryOperator;
-
+import co.com.oca.java.chapter6.exceptions.*;
 /**
  * Created by developer on 5/08/17.
  */
 public class Test {
+
+    public void statementsTest(){
+        Statements.switchTest();
+    }
+
+    public void loopTest(){
+
+        Loop.breakLabelTest();
+        Loop.continueLabelTest();
+    }
+
 
     public void wrapperTest(){
         WrapperTest wt= new WrapperTest();
@@ -53,6 +66,7 @@ public class Test {
         ArrayTest.doSortByteTypeTest();
         ArrayTest.doBinarySearchWithArrayUnSort();
         ArrayTest.doSortCharTypeMultidimensionalArrayTest();
+        ArrayTest.doDeclarationAndInizializationMultidimentionalArrayTest();
     }
 
 
@@ -65,6 +79,14 @@ public class Test {
     public void unaryOperatorTest(){
         UnaryOperator uo= new UnaryOperator();
         uo.doTest();
+    }
+
+    public void exceptionTest(){
+        try {
+            CheckedExceptionTest.checkedExceptionNotThrown();
+        }catch(IOException e){
+
+        }
     }
 
 
@@ -89,7 +111,11 @@ public class Test {
         human.evolution();
         System.out.println(species.breath());
         System.out.println(breath());
+        t.statementsTest();
+        t.loopTest();
+        t.exceptionTest();
+
+
+
     }
 }
-
-
